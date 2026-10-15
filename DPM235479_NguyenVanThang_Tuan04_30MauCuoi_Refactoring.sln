@@ -1,0 +1,235 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceTypeStateStrategy", "ReplaceTypeStateStrategy\ReplaceTypeStateStrategy.csproj", "{031D29AD-728C-450D-93BE-45FBDFF803C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceSubclassWithFields", "ReplaceSubclassWithFields\ReplaceSubclassWithFields.csproj", "{E83B556D-63C9-4C41-BD82-2C979929B90D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecomposeConditional", "DecomposeConditional\DecomposeConditional.csproj", "{B4E4124C-768D-4FA5-901B-A77E6238A856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolidateConditionalExpression", "ConsolidateConditionalExpression\ConsolidateConditionalExpression.csproj", "{A1111111-1111-1111-1111-111111111111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolidateDuplicateConditionalFragments", "ConsolidateDuplicateConditionalFragments\ConsolidateDuplicateConditionalFragments.csproj", "{A2222222-2222-2222-2222-222222222222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveControlFlag", "RemoveControlFlag\RemoveControlFlag.csproj", "{A3333333-3333-3333-3333-333333333333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceNestedConditionalWithGuardClauses", "ReplaceNestedConditionalWithGuardClauses\ReplaceNestedConditionalWithGuardClauses.csproj", "{A4444444-4444-4444-4444-444444444444}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceConditionalWithPolymorphism", "ReplaceConditionalWithPolymorphism\ReplaceConditionalWithPolymorphism.csproj", "{A5555555-5555-5555-5555-555555555555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroduceNullObject", "IntroduceNullObject\IntroduceNullObject.csproj", "{A6666666-6666-6666-6666-666666666666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroduceAssertion", "IntroduceAssertion\IntroduceAssertion.csproj", "{A7777777-7777-7777-7777-777777777777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenameMethod", "RenameMethod\RenameMethod.csproj", "{B1111111-1111-1111-1111-111111111111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddParameter", "AddParameter\AddParameter.csproj", "{B2222222-2222-2222-2222-222222222222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveParameter", "RemoveParameter\RemoveParameter.csproj", "{B3333333-3333-3333-3333-333333333333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeparateQueryFromModifier", "SeparateQueryFromModifier\SeparateQueryFromModifier.csproj", "{B4444444-4444-4444-4444-444444444444}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParameterizeMethod", "ParameterizeMethod\ParameterizeMethod.csproj", "{B5555555-5555-5555-5555-555555555555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceParameterWithExplicitMethods", "ReplaceParameterWithExplicitMethods\ReplaceParameterWithExplicitMethods.csproj", "{B6666666-6666-6666-6666-666666666666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreserveWholeObject", "PreserveWholeObject\PreserveWholeObject.csproj", "{B7777777-7777-7777-7777-777777777777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceParameterWithMethodCall", "ReplaceParameterWithMethodCall\ReplaceParameterWithMethodCall.csproj", "{B8888888-8888-8888-8888-888888888888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroduceParameterObject", "IntroduceParameterObject\IntroduceParameterObject.csproj", "{B9999999-9999-9999-9999-999999999999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveSettingMethod", "RemoveSettingMethod\RemoveSettingMethod.csproj", "{BAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HideMethod", "HideMethod\HideMethod.csproj", "{BBBBBBBB-BBBB-BBBB-BBBB-BBBBBBBBBBBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceConstructorWithFactoryMethod", "ReplaceConstructorWithFactoryMethod\ReplaceConstructorWithFactoryMethod.csproj", "{BCCCCCCC-CCCC-CCCC-CCCC-CCCCCCCCCCCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceErrorCodeWithException", "ReplaceErrorCodeWithException\ReplaceErrorCodeWithException.csproj", "{BDDDDDDD-DDDD-DDDD-DDDD-DDDDDDDDDDDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceExceptionWithTest", "ReplaceExceptionWithTest\ReplaceExceptionWithTest.csproj", "{BEEEEEEE-EEEE-EEEE-EEEE-EEEEEEEEEEEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PullUpField", "PullUpField\PullUpField.csproj", "{C1111111-1111-1111-1111-111111111111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PullUpMethod", "PullUpMethod\PullUpMethod.csproj", "{C2222222-2222-2222-2222-222222222222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PullUpConstructorBody", "PullUpConstructorBody\PullUpConstructorBody.csproj", "{C3333333-3333-3333-3333-333333333333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushDownMethod", "PushDownMethod\PushDownMethod.csproj", "{C4444444-4444-4444-4444-444444444444}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushDownField", "PushDownField\PushDownField.csproj", "{C5555555-5555-5555-5555-555555555555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractSubclass", "ExtractSubclass\ExtractSubclass.csproj", "{C6666666-6666-6666-6666-666666666666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractSuperclass", "ExtractSuperclass\ExtractSuperclass.csproj", "{C7777777-7777-7777-7777-777777777777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractInterface", "ExtractInterface\ExtractInterface.csproj", "{C8888888-8888-8888-8888-888888888888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollapseHierarchy", "CollapseHierarchy\CollapseHierarchy.csproj", "{C9999999-9999-9999-9999-999999999999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormTemplateMethod", "FormTemplateMethod\FormTemplateMethod.csproj", "{CAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceInheritanceWithDelegation", "ReplaceInheritanceWithDelegation\ReplaceInheritanceWithDelegation.csproj", "{CBBBBBBB-BBBB-BBBB-BBBB-BBBBBBBBBBBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceDelegationWithInheritance", "ReplaceDelegationWithInheritance\ReplaceDelegationWithInheritance.csproj", "{CCCCCCCC-CCCC-CCCC-CCCC-CCCCCCCCCCCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{031D29AD-728C-450D-93BE-45FBDFF803C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{031D29AD-728C-450D-93BE-45FBDFF803C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{031D29AD-728C-450D-93BE-45FBDFF803C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{031D29AD-728C-450D-93BE-45FBDFF803C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E83B556D-63C9-4C41-BD82-2C979929B90D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83B556D-63C9-4C41-BD82-2C979929B90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83B556D-63C9-4C41-BD82-2C979929B90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83B556D-63C9-4C41-BD82-2C979929B90D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4E4124C-768D-4FA5-901B-A77E6238A856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E4124C-768D-4FA5-901B-A77E6238A856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E4124C-768D-4FA5-901B-A77E6238A856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E4124C-768D-4FA5-901B-A77E6238A856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1111111-1111-1111-1111-111111111111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1111111-1111-1111-1111-111111111111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1111111-1111-1111-1111-111111111111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1111111-1111-1111-1111-111111111111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2222222-2222-2222-2222-222222222222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2222222-2222-2222-2222-222222222222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2222222-2222-2222-2222-222222222222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2222222-2222-2222-2222-222222222222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3333333-3333-3333-3333-333333333333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3333333-3333-3333-3333-333333333333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3333333-3333-3333-3333-333333333333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3333333-3333-3333-3333-333333333333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4444444-4444-4444-4444-444444444444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4444444-4444-4444-4444-444444444444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4444444-4444-4444-4444-444444444444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4444444-4444-4444-4444-444444444444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5555555-5555-5555-5555-555555555555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5555555-5555-5555-5555-555555555555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5555555-5555-5555-5555-555555555555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5555555-5555-5555-5555-555555555555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6666666-6666-6666-6666-666666666666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6666666-6666-6666-6666-666666666666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6666666-6666-6666-6666-666666666666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6666666-6666-6666-6666-666666666666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7777777-7777-7777-7777-777777777777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7777777-7777-7777-7777-777777777777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7777777-7777-7777-7777-777777777777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7777777-7777-7777-7777-777777777777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1111111-1111-1111-1111-111111111111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1111111-1111-1111-1111-111111111111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1111111-1111-1111-1111-111111111111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1111111-1111-1111-1111-111111111111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2222222-2222-2222-2222-222222222222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2222222-2222-2222-2222-222222222222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2222222-2222-2222-2222-222222222222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2222222-2222-2222-2222-222222222222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3333333-3333-3333-3333-333333333333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3333333-3333-3333-3333-333333333333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3333333-3333-3333-3333-333333333333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3333333-3333-3333-3333-333333333333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4444444-4444-4444-4444-444444444444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4444444-4444-4444-4444-444444444444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4444444-4444-4444-4444-444444444444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4444444-4444-4444-4444-444444444444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5555555-5555-5555-5555-555555555555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5555555-5555-5555-5555-555555555555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5555555-5555-5555-5555-555555555555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5555555-5555-5555-5555-555555555555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6666666-6666-6666-6666-666666666666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6666666-6666-6666-6666-666666666666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6666666-6666-6666-6666-666666666666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6666666-6666-6666-6666-666666666666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7777777-7777-7777-7777-777777777777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7777777-7777-7777-7777-777777777777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7777777-7777-7777-7777-777777777777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7777777-7777-7777-7777-777777777777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8888888-8888-8888-8888-888888888888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8888888-8888-8888-8888-888888888888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8888888-8888-8888-8888-888888888888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8888888-8888-8888-8888-888888888888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9999999-9999-9999-9999-999999999999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9999999-9999-9999-9999-999999999999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9999999-9999-9999-9999-999999999999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9999999-9999-9999-9999-999999999999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBBBBBBB-BBBB-BBBB-BBBB-BBBBBBBBBBBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBBBBBBB-BBBB-BBBB-BBBB-BBBBBBBBBBBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBBBBBBB-BBBB-BBBB-BBBB-BBBBBBBBBBBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBBBBBBB-BBBB-BBBB-BBBB-BBBBBBBBBBBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCCCCCCC-CCCC-CCCC-CCCC-CCCCCCCCCCCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCCCCCCC-CCCC-CCCC-CCCC-CCCCCCCCCCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCCCCCCC-CCCC-CCCC-CCCC-CCCCCCCCCCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCCCCCCC-CCCC-CCCC-CCCC-CCCCCCCCCCCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDDDDDD-DDDD-DDDD-DDDD-DDDDDDDDDDDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDDDDDD-DDDD-DDDD-DDDD-DDDDDDDDDDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDDDDDD-DDDD-DDDD-DDDD-DDDDDDDDDDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDDDDDD-DDDD-DDDD-DDDD-DDDDDDDDDDDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEEEEEEE-EEEE-EEEE-EEEE-EEEEEEEEEEEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEEEEEEE-EEEE-EEEE-EEEE-EEEEEEEEEEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEEEEEEE-EEEE-EEEE-EEEE-EEEEEEEEEEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEEEEEEE-EEEE-EEEE-EEEE-EEEEEEEEEEEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1111111-1111-1111-1111-111111111111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1111111-1111-1111-1111-111111111111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1111111-1111-1111-1111-111111111111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1111111-1111-1111-1111-111111111111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2222222-2222-2222-2222-222222222222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2222222-2222-2222-2222-222222222222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2222222-2222-2222-2222-222222222222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2222222-2222-2222-2222-222222222222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3333333-3333-3333-3333-333333333333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3333333-3333-3333-3333-333333333333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3333333-3333-3333-3333-333333333333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3333333-3333-3333-3333-333333333333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4444444-4444-4444-4444-444444444444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4444444-4444-4444-4444-444444444444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4444444-4444-4444-4444-444444444444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4444444-4444-4444-4444-444444444444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5555555-5555-5555-5555-555555555555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5555555-5555-5555-5555-555555555555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5555555-5555-5555-5555-555555555555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5555555-5555-5555-5555-555555555555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6666666-6666-6666-6666-666666666666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6666666-6666-6666-6666-666666666666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6666666-6666-6666-6666-666666666666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6666666-6666-6666-6666-666666666666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7777777-7777-7777-7777-777777777777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7777777-7777-7777-7777-777777777777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7777777-7777-7777-7777-777777777777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7777777-7777-7777-7777-777777777777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8888888-8888-8888-8888-888888888888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8888888-8888-8888-8888-888888888888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8888888-8888-8888-8888-888888888888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8888888-8888-8888-8888-888888888888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9999999-9999-9999-9999-999999999999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9999999-9999-9999-9999-999999999999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9999999-9999-9999-9999-999999999999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9999999-9999-9999-9999-999999999999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBBBBBBB-BBBB-BBBB-BBBB-BBBBBBBBBBBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBBBBBB-BBBB-BBBB-BBBB-BBBBBBBBBBBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBBBBBB-BBBB-BBBB-BBBB-BBBBBBBBBBBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBBBBBB-BBBB-BBBB-BBBB-BBBBBBBBBBBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCCCCCCC-CCCC-CCCC-CCCC-CCCCCCCCCCCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCCCCCCC-CCCC-CCCC-CCCC-CCCCCCCCCCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCCCCCCC-CCCC-CCCC-CCCC-CCCCCCCCCCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCCCCCCC-CCCC-CCCC-CCCC-CCCCCCCCCCCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CF13A12-588B-44D3-8910-D9D376DF65F4}
+	EndGlobalSection
+EndGlobal
